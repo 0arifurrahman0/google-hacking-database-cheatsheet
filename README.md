@@ -13,7 +13,7 @@ This cheat sheet contains common Google dorks and search operators to help you g
 | `-`                      | Exclude a term                             | `security -policy`             |
 | `*`                      | Wildcard (any word)                        | `"error * line"`               |
 
----
+
 
 ## 📌 Advanced Search Operators
 
@@ -25,7 +25,6 @@ This cheat sheet contains common Google dorks and search operators to help you g
 | `filetype:`              | Search for specific file types             | `filetype:pdf "security policies"`             |
 | `intext:`                | Search within the page body text           | `intext:"error database"`                      |
 
----
 
 ## 📌 Narrowing Search Results
 
@@ -36,7 +35,7 @@ This cheat sheet contains common Google dorks and search operators to help you g
 | `define:`                | Get definitions for a word or phrase       | `define:SQL injection`                         |
 | `link:`                  | Find sites linking to a specific URL       | `link:example.com`                             |
 
----
+
 
 ## 📌 Combining Operators
 
@@ -46,7 +45,7 @@ This cheat sheet contains common Google dorks and search operators to help you g
 | `allinurl:`              | Search multiple words in the URL           | `allinurl:admin login`                         |
 | `allintext:`             | Search multiple words in the page text     | `allintext:database username password`         |
 
----
+
 
 ## 📌 Time-Specific Search
 
@@ -55,7 +54,7 @@ This cheat sheet contains common Google dorks and search operators to help you g
 | `daterange:`             | Search within a specific date range        | `daterange:2458834-2458844 "data breach"`      |
 | **Note:**                | Use the **Tools** menu for time filtering  | N/A                                            |
 
----
+
 
 ## 📌 Common Dorks for Sensitive Information
 
@@ -91,7 +90,7 @@ This cheat sheet contains common Google dorks and search operators to help you g
 | `intitle:"webcamXP 5"`              | Finds webcams running webcamXP 5            |
 | `inurl:":10000" intitle:"Webmin"`   | Locates Webmin admin interfaces             |
 
----
+
 
 ## 📌 Files Containing Juicy Info
 
@@ -100,7 +99,7 @@ This cheat sheet contains common Google dorks and search operators to help you g
 | `filetype:log inurl:"/logs/"`       | Finds log files that may contain sensitive info |
 | `filetype:bak inurl:"/backup/"`     | Locates backup files                       |
 
----
+
 
 ## 📌 Finding SQL Injection Vulnerabilities
 
@@ -110,12 +109,12 @@ This cheat sheet contains common Google dorks and search operators to help you g
 | `inurl:".php?id=" "You have an error in your SQL syntax"` | Finds SQL errors, indicating vulnerability |
 | `inurl:".php?id=" "mysql_fetch_array()"` | Searches for pages showing MySQL errors   |
 
----
+
 
 ## ⚠️ **Disclaimer:**
 This cheat sheet is intended for **ethical hacking and educational purposes** only. Always ensure you have permission before performing any actions on a website. Unauthorized access is illegal.
 
----
+
 
 ## 📚 **Resources:**
 - [Exploit-DB Google Hacking Database](https://www.exploit-db.com/google-hacking-database)
