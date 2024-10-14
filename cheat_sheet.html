@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        .table>:not(caption)>*>* {
+            padding: .25rem .5rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h3 class="text-center">Google Hacking Database (GHDB) Cheat Sheet</h3>
+    <h5>Basic Search Operators</h5>
+    <table class="table table-striped table-bordered">
+        <thead>
+        <tr>
+            <th>Operator</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><code>"keyword"</code></td>
+            <td>Search for an exact phrase</td>
+            <td><code>"admin login page"</code></td>
+        </tr>
+        <tr>
+            <td><code>OR</code></td>
+            <td>Logical OR (either term)</td>
+            <td><code>php OR laravel tutorials</code></td>
+        </tr>
+        <tr>
+            <td><code>-</code></td>
+            <td>Exclude a term</td>
+            <td><code>security -policy</code></td>
+        </tr>
+        <tr>
+            <td><code>*</code></td>
+            <td>Wildcard (any word)</td>
+            <td><code>"error * line"</code></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h5>Advanced Search Operators</h5>
+    <table class="table table-striped table-bordered">
+        <thead>
+        <tr>
+            <th>Operator</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><code>site:</code></td>
+            <td>Restrict to a specific site or domain</td>
+            <td><code>site:example.com</code></td>
+        </tr>
+        <tr>
+            <td><code>intitle:</code></td>
+            <td>Search within the title</td>
+            <td><code>intitle:"index of /admin"</code></td>
+        </tr>
+        <tr>
+            <td><code>inurl:</code></td>
+            <td>Search within the URL</td>
+            <td><code>inurl:admin</code></td>
+        </tr>
+        <tr>
+            <td><code>filetype:</code></td>
+            <td>Search for specific file types</td>
+            <td><code>filetype:pdf "security policies"</code></td>
+        </tr>
+        <tr>
+            <td><code>intext:</code></td>
+            <td>Search within the page body text</td>
+            <td><code>intext:"error database"</code></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h5>Narrowing Search Results</h5>
+    <table class="table table-striped table-bordered">
+        <thead>
+        <tr>
+            <th>Operator</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><code>cache:</code></td>
+            <td>View the cached version of a page</td>
+            <td><code>cache:example.com</code></td>
+        </tr>
+        <tr>
+            <td><code>related:</code></td>
+            <td>Find sites related to a domain</td>
+            <td><code>related:example.com</code></td>
+        </tr>
+        <tr>
+            <td><code>define:</code></td>
+            <td>Get definitions for a word or phrase</td>
+            <td><code>define:SQL injection</code></td>
+        </tr>
+        <tr>
+            <td><code>link:</code></td>
+            <td>Find sites linking to a specific URL</td>
+            <td><code>link:example.com</code></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h5>Combining Operators</h5>
+    <table class="table table-striped table-bordered">
+        <thead>
+        <tr>
+            <th>Operator</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><code>allintitle:</code></td>
+            <td>Search multiple words in the title</td>
+            <td><code>allintitle:admin login page</code></td>
+        </tr>
+        <tr>
+            <td><code>allinurl:</code></td>
+            <td>Search multiple words in the URL</td>
+            <td><code>allinurl:admin login</code></td>
+        </tr>
+        <tr>
+            <td><code>allintext:</code></td>
+            <td>Search multiple words in the page text</td>
+            <td><code>allintext:database username password</code></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h5>Time-Specific Search</h5>
+    <table class="table table-striped table-bordered">
+        <thead>
+        <tr>
+            <th>Operator</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><code>daterange:</code></td>
+            <td>Search within a specific date range</td>
+            <td><code>daterange:2458834-2458844 "data breach"</code></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
