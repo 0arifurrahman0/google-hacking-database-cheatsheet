@@ -52,7 +52,6 @@ This cheat sheet contains common Google dorks and search operators to help you g
 | Operator                 | Description                                | Example                                        |
 |--------------------------|--------------------------------------------|------------------------------------------------|
 | `daterange:`             | Search within a specific date range        | `daterange:2458834-2458844 "data breach"`      |
-| **Note:**                | Use the **Tools** menu for time filtering  | N/A                                            |
 
 
 
@@ -109,6 +108,11 @@ This cheat sheet contains common Google dorks and search operators to help you g
 | `inurl:".php?id=" "You have an error in your SQL syntax"` | Finds SQL errors, indicating vulnerability |
 | `inurl:".php?id=" "mysql_fetch_array()"` | Searches for pages showing MySQL errors   |
 
+
+## 📥 Downloadable Files
+
+- [Printable PDF Cheat Sheet](cheat_sheet.pdf)
+- [HTML Version of Cheat Sheet](cheat_sheet.html)
 
 
 ## ⚠️ **Disclaimer:**
